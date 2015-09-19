@@ -1,0 +1,45 @@
+.enemy img {
+  width:250px;
+}
+
+.top-screen {
+    position: absolute;
+    top: 0;
+}
+.bottom-screen {
+    position: absolute;
+    bottom: 0;
+}
+.left-screen {
+    position: absolute;
+    left: 0;
+}
+.right-screen {
+    position: absolute;
+    right: 0;
+}
+
+.tv {
+    background-image: url("http://www.gif.tv/tv.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  height:430px;
+  position: relative
+}  
+
+.inv {
+  display: none;
+}
+.nicecolor {
+      margin-left: 40px;
+      margin-top: 65px;
+      width:465px;
+      height:350px;
+      position:absolute;
+     }
+
+    .nicecolor:hover {
+      color:blue;
+      /*cursor: crosshair;*/
+      cursor: url(http://www.louisianasiteselection.com/jedco/images/crosshairs.gif),auto;
+     }
